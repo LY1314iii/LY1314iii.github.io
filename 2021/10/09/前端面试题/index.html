@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Hello World, Hexo">
+    <meta name="keywords" content="Hexo">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>Hello World | Hexo</title>
+    <title>Hexo</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -313,12 +313,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/12.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/0.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">Hello World</h1>
+                    <h1 class="description center-align post-title"></h1>
                 </div>
             </div>
         </div>
@@ -446,28 +446,28 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2021-05-29
+                    2021-10-09
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2021-05-29
+                    2021-06-06
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    75
+                    1.3k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    1 分
+                    4 分
                 </div>
                 
 
@@ -487,19 +487,74 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+                <h1 id="JavaScript-数据类型"><a href="#JavaScript-数据类型" class="headerlink" title="JavaScript 数据类型"></a>JavaScript 数据类型</h1><p>**值类型(基本类型)**：字符串（String）、数字(Number)、布尔(Boolean)、对空（Null）、未定义（Undefined）、Symbol。</p>
+<p><strong>引用数据类型</strong>：对象(Object)、数组(Array)、函数(Function)。</p>
+<p>2.Ajax如何使用</p>
+<p>一个完整的AJAX请求包括五个步骤：</p>
+<p>（1）创建XMLHTTPRequest对象</p>
+<p>（2）使用open方法创建http请求，并设置请求地址</p>
+<p>xhr.open（get/post，url，async，true（异步），false（同步））经常使用前三个参数</p>
+<p>（3）设置发送的数据，用send发送请求</p>
+<p>（4）注册事件（给ajax设置事件）</p>
+<p>（5）获取响应并更新页面</p>
+<p>3.如何判断一个数据是NaN</p>
+<p>NaN 非数字 但是用type of检测是number类型</p>
+<p>利用NaN的定义  用type of判断是否为number类型并且判断是否满足isnan<br>利用NaN是唯一一个不等于任何自身的特点 n！==n<br>利用ES6中提供的Object.is()方法（判断两个值是否相等）  n==nan</p>
+<p>4.Js中null与undefined区别</p>
+<p>（1）相同点：</p>
+<p>用if判断时，两者都会被转换成false</p>
+<p>（2）不同点：</p>
+<p>number转换的值不同 number（null）为0  number（undefined）为NaN</p>
+<p>Null<strong>表示一个值被定义了，但是这个值是空值</strong></p>
+<p>Undefined <strong>变量声明但未赋值</strong></p>
+<p>5.闭包是什么？有什么特性？对页面会有什么影响</p>
+<p>闭包可以简单理解成：定义在一个函数内部的函数。其中一个内部函数在包含它们的外部函数之外被调用时，就会形成闭包。</p>
+<p>特点：</p>
+<p>1.函数嵌套函数。</p>
+<p>2.函数内部可以引用外部的参数和变量。</p>
+<p>3.参数和变量不会被垃圾回收机制回收。</p>
+<p>使用：</p>
+<p>1.读取函数内部的变量；</p>
+<p> 2.这些变量的值始终保持在内存中，不会在外层函数调用后被自动清除。</p>
+<p>优点：</p>
+<p>1:变量长期驻扎在内存中；</p>
+<p>2:避免全局变量的污染；</p>
+<p>3:私有成员的存在 ；</p>
+<p>缺点：会造成内存泄露</p>
+<p>6.Js中常见的内存泄漏：</p>
+<p>（1）意外的全局变量</p>
+<p>（2）被遗忘的计时器或回调函数</p>
+<p>（3）脱离DOM的引用</p>
+<p>（4）闭包</p>
+<p>7.7.事件委托是什么？如何确定事件源（Event.target  谁调用谁就是事件源）</p>
+<p>JS高程上讲：事件委托就是利用事件冒泡，只制定一个时间处理程序，就可以管理某一类型的所有事件。</p>
+<p>事件委托，称事件代理，是js中很常用的绑定事件的技巧，事件委托就是把原本需要绑定在子元素的响应事件委托给父元素，让父元素担当事件监听的职务，事件委托的原理是DOM元素的事件冒泡</p>
+<p>8.什么是事件冒泡？</p>
+<p>一个事件触发后，会在子元素和父元素之间传播，这种传播分为三个阶段，</p>
+<p>捕获阶段（从window对象传导到目标节点（从外到里），这个阶段不会响应任何事件），目标阶段，（在目标节点上触发），冒泡阶段（从目标节点传导回window对象（从里到外）），事件委托/事件代理就是利用事件冒泡的机制把里层需要响应的事件绑定到外层</p>
+<p>10.ES6新特性</p>
+<p>const和let、模板字符串、箭头函数、函数的参数默认值、对象和数组解构、for…of 和 for…in、ES6中的类</p>
+<p>11.Let与var与const的区别</p>
+<p>Var声明的变量会挂载在window上，而let和const声明的变量不会</p>
+<p>Var声明的变量存在变量提升，let和const不存在变量提升</p>
+<p><strong>同一作用域下</strong>var可以声明同名变量，let和const不可以</p>
+<p>Let和const声明会形成块级作用域</p>
+<p>Let暂存死区</p>
+<p>Const一旦声明必须赋值，不能用null占位，声明后不能再修改，如果声明的是复合类型数据，可以修改属性</p>
+<p>12.数组方法有哪些请简述</p>
+<p>push() 从后面添加元素，返回值为添加完后的数组的长度</p>
+<p>arr.pop() 从后面删除元素，只能是一个，返回值是删除的元素</p>
+<p>arr.shift() 从前面删除元素，只能删除一个 返回值是删除的元素</p>
+<p>arr.unshift() 从前面添加元素, 返回值是添加完后的数组的长度</p>
+<p> arr.splice(i,n) 删除从i(索引值)开始之后的那个元素。返回值是删除的元素</p>
+<p>arr.concat() 连接两个数组 返回值为连接后的新数组</p>
+<p>str.split() 将字符串转化为数组</p>
+<p> arr.sort() 将数组进行排序,返回值是排好的数组，默认是按照最左边的数字进行排序，不是按照数字大小排序的</p>
+<p>arr.reverse() 将数组反转,返回值是反转后的数组</p>
+<p> arr.slice(start,end) 切去索引值start到索引值end的数组，不包含end索引的值，返回值是切出来的数组</p>
+<p> arr.forEach(callback) 遍历数组,无return  即使有return，也不会返回任何值，并且会影响原来的数组</p>
+<p> arr.map(callback) 映射数组(遍历数组),有return 返回一个新数组 。</p>
+<p> arr.filter(callback) 过滤数组，返回一个满足要求的数组 </p>
 
                 
             </div>
@@ -526,7 +581,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://example.com/2021/05/29/hello-world/">http://example.com/2021/05/29/hello-world/</a>
+                    <a href="http://example.com/2021/10/09/%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95%E9%A2%98/">http://example.com/2021/10/09/%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95%E9%A2%98/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -609,7 +664,7 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2021/10/09/javascript/">
+                <a href="/2021/10/09/%E8%AF%95/">
                     <div class="card-image">
                         
                         
@@ -643,16 +698,16 @@
         
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge right-badge text-color">
-                本篇&nbsp;<i class="far fa-dot-circle"></i>
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2021/05/29/hello-world/">
+                <a href="/2021/10/09/%E9%9D%A2%E8%AF%95/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="Hello World">
+                        <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="">
                         
-                        <span class="card-title">Hello World</span>
+                        <span class="card-title"></span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -663,7 +718,7 @@
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-05-29
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-10-09
                             </span>
                         <span class="publish-author">
                             
@@ -673,7 +728,6 @@
                         </span>
                     </div>
                 </div>
-
                 
             </div>
         </div>
